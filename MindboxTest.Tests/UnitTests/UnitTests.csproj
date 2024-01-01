@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\MindboxTest\MindboxTest.csproj" />
+  </ItemGroup>
+
 </Project>

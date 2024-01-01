@@ -57,7 +57,7 @@ namespace MindboxTest.Figures
         /// <returns>Triangle square value.</returns>
         public double CalculateSquare()
         {
-            var halfPerimeter = (SideA + SideB + SideC) / 2;
+            var halfPerimeter = (SideA + SideB + SideC) / 2d;
 
             return halfPerimeter * (halfPerimeter - SideA) * (halfPerimeter - SideB) * (halfPerimeter - SideC);
         }
